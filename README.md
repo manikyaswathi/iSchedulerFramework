@@ -1,2 +1,2 @@
 # iSchedulerFramework
-The  ICICLE Smart Schduler Framework - components and indepenet deplyment Instrtcuctions. 
+The ICICLE Smart Scheduler Framework - components and independent deployment Instructions. 
