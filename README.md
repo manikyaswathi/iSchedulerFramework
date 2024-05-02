@@ -21,5 +21,6 @@ In this study, we focus on the resource demands of user applications, particular
 - _Adaptation to Changing Requirements and Optimizations:_ Changes in training data, models, or hyperparameters may necessitate further fine-tuning. Users must adjust their resource allocations accordingly if initial allocations based on pre-learning configurations prove inadequate. While allocations may execute jobs to completion, they may **only sometimes ensure optimal performance** or resource utilization. Users should be aware of the potential for refinement to enhance efficiency.
 
 
+![iSchdulerFramework](https://github.com/manikyaswathi/iSchedulerFramework/blob/main/Images/ISchdulerFramework.png?raw=true) 
 ## **Solutions Offered via iScheduler Helper:**
 1. _Implementation of a Centralized Database:_ We have implemented a dedicated database to store all CI limitations, providing users with a centralized resource for informed decision-making. This database allows users to query whether a specific allocation is viable before initiating the job submission process through SLURM scripts. For detailed guidance on configuring and exploring the database's utility, refer to the readme file in the "DataBase" folder. Additionally, the readme offers insights into additional use cases, expanding on the database's functionality and potential applications.
