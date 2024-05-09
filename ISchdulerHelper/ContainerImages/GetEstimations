@@ -1,0 +1,14 @@
+FROM harp-framework-local:2.0.0
+
+# Do application specific installations
+#  "3. Application Setup"
+# ENV APP_NAME="01-eulers_number"
+ENV APP_PATH="examples/01-eulers_number"
+ENV APP_NAME="01-eulers_number"
+ADD $APP_PATH /app/$APP_PATH
+# Replace examples with your application folder
+
+#copy the exection end-point file
+COPY ProfileApplication.sh /app/ProfileApplication.sh
+#execute HARP to profile target application ion "examples"
+ENTRYPOINT ["sh", "/app/ProfileApplication.sh"]

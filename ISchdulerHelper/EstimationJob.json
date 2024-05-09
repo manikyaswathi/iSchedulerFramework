@@ -1,0 +1,19 @@
+{
+  "id": "SmartScheulerEstimator",
+  "version": "1.0.0",
+  "description": "......",
+  "runtime": "SINGULARITY",
+  "runtimeOptions": ["SINGULARITY_RUN"],
+  "jobType":"BATCH",
+  "containerImage": "docker://swathimanikya/harp-app-eulernumber-ci:2.0.0",
+  "jobAttributes": {
+    "parameterSet": {
+      "archiveFilter": { "includeLaunchFiles": "False" }
+    },
+    "memoryMB": 44000,
+    "nodeCount": 1,
+    "coresPerNode": 10,
+    "maxMinutes": 30
+  }
+}
+
